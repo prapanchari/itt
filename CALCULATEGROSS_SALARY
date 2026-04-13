@@ -1,0 +1,8 @@
+bp=float(input("enter the basic pay:"))
+hra=bp*0.2
+da=bp*0.1
+gs=bp+da+hra
+if gs>=5000 and gs<=50000:
+   print("the gross salary is:",gs)
+else:
+   print("INVALID")
